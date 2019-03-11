@@ -280,7 +280,7 @@ set_eth0_ip()
 
 
 do_main_menu() {
-    FUN=$(dialog --title "LoRa Gateway OS(Rak 2.0)" --cancel-label "Quit" --menu "Configuration options:" 18 80 20 \
+    FUN=$(dialog --title "LoRa Gateway OS(Rak 2.0.1)" --cancel-label "Quit" --menu "Configuration options:" 18 80 20 \
         1 "Set admin password" \
         2 "Setup RAK831/RAK2245 LoRa concentrator" \
         3 "Edit packet-forwarder config" \
