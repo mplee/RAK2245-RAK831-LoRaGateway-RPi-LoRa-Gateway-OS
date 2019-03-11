@@ -3,10 +3,24 @@ Yocto based gateway image including LoRa Server components (https://www.loraserv
 
 ##	Introduction 
 
-The last RAK version of lora-gateway-os for RAK2245 is based on the [lora-gateway-os](https://github.com/brocaar/lora-gateway-os) Commit ID : 7c97acc1f0866e1b238f74ae8076f0b1058492af and GPS uses I2C interface.
+The aim of this project is to help users set up a LoRa network easily. The User Guide can be get from our Web.
 
-This is the second RAK version with GPS back to uart, and supports RAK831 as well.  
-[lora-gateway-os](https://github.com/brocaar/lora-gateway-os) updated to Commit ID : 8d9815278c1958af7c91228c8701945050268ca7
+##	Supported platforms
+
+This project currently provides support for the below platforms.
+
+* RAK2245
+* RAK831
+
+##	Acknowledgments
+
+This project based on [lora-gateway-os](https://github.com/brocaar/lora-gateway-os)  REV: 8d9815278c1958af7c91228c8701945050268ca7 
+
+##	Changelog
+
+2019-03-11 RAK V2.0.1
+
+* Initial version
 
 
 ##	Building images
